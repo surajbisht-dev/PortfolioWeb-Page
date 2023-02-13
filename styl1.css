@@ -1,0 +1,149 @@
+/* .bgimage {
+    height:00px;
+    width: 100%;
+    background: url('bgImg.jpg');
+    background-size:cover;
+     position:relative; 
+    /* height: 0px; 
+}*/
+#bgImg{
+    height:750px;
+    width: 100%;
+    
+    background-size:cover;
+     position:relative; 
+}
+.navbar img{
+    height:60px;
+    width:60px;
+    border-radius: 40px;
+}
+.nav-item{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+/* about section image css */
+/* #about{
+    padding-bottom:50px;
+} */
+.imageAboutPage {
+    width: 100%;
+}
+/* services section css */
+/* #services{
+    padding-bottom: 50px ;
+} */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+#services span{
+    text-align: center;
+    display: block;
+    width:100%;
+    font-size: 30px;
+
+}
+/* #portfolio{
+    padding-bottom: 50px;
+} */
+#portfolio img{
+    width:295px;
+    height: 197px;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover span  {
+  color: #008000;
+}
+.servicesText:hover {
+    border: 2px solid #008000;
+}
+/* display background color black on navbar scroll */
+ .navbarDark {
+    background-color:wheat;
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.icon{
+   color: rgb(30, 167, 119);
+}
+.icon:hover{
+   color:rgb(12, 214, 214);
+}
+.fa {
+    color: #000000;
+}
+.btn-success{
+    margin-bottom: 100px;
+}
+/* footer styling */
+#footer {
+    background-color:wheat;
+    text-align: center;
+  
+    
+}
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+#contact {
+    padding-bottom: 1rem;
+}
+
+  .container-top {
+    --offset: 100px;
+    --fade: 80px;
+    margin-left: 500px;
+    display: flex;
+    align-items: flex-end;
+    width: 60px;
+    justify-self: end;
+    justify-content: flex-end;
+    margin-top: 20px;
+    
+
+  }
+  
+  .top {
+    position: sticky;
+    bottom: 20px;      
+    margin-right:10px; 
+    
+    /* visual styling */
+    width:100%;
+    aspect-ratio:1;
+    background:#ff8b24;
+    border-radius:10px;
+   
+  }
+  .top:before {
+    content:"";
+    position:absolute;
+    inset:30%;
+    transform:translateY(20%) rotate(-45deg);
+    border-top:5px solid #fff;
+    border-right:5px solid #fff;
+  }
+  
